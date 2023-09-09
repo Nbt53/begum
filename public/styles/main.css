@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: white;
+  font-family: "Dosis", sans-serif;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+.header {
+  width: 70vw;
+  height: 20rem;
+  margin: 0 auto;
+  padding-top: 5rem;
+}
+.header__title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.navBar {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+}
+.navBar__item {
+  display: flex;
+  align-items: center;
+  font-size: 1.8rem;
+  text-transform: capitalize;
+  /* height: 4rem; */
+  width: 20%;
+  border-top: 3px solid white;
+  border-bottom: 3px solid white;
+  cursor: pointer;
+  transition: all 0.8s ease-out;
+}
+.navBar__item:hover {
+  border-top: 3px solid rgb(127, 126, 126);
+  border-bottom: 3px solid rgb(127, 126, 126);
+}
+.navBar__selected {
+  border-top: 3px solid rgb(96, 89, 89);
+  border-bottom: 3px solid rgb(96, 89, 89);
+}
+.navBar__text {
+  text-align: center;
+  letter-spacing: 1.5px;
+  width: 100%;
+  margin: 2rem 0;
+  pointer-events: none;
+}
+
+.slideshow {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+  width: 100%;
+  transition: all 1s ease-in-out;
+}
+.slideshow__item {
+  transition: all 1s ease-in-out;
+}/*# sourceMappingURL=main.css.map */

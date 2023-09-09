@@ -1,0 +1,11 @@
+.header {
+    width: 70vw;
+    height: 20rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+
+    &__title {
+        text-align: center;
+        letter-spacing: 2px;
+    }
+}
